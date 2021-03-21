@@ -1,0 +1,107 @@
+2021-03-21 19:51:23,661 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:51:23,662 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:51:23,662 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Verify Money Control Login Page       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2021-03-21 19:51:23,662 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:51:23,662 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:51:27,941 INFO  [Log] Browser edge initiated 
+2021-03-21 19:51:48,909 INFO  [Log] Navigated to the URL : https://www.moneycontrol.com 
+2021-03-21 19:51:49,133 INFO  [Log] WebElement Displayed 
+2021-03-21 19:51:49,136 INFO  [Log] Money control home page is displayed 
+2021-03-21 19:51:50,772 INFO  [Log] WebElement Displayed 
+2021-03-21 19:51:50,773 INFO  [Log] Iframe is displayed 
+2021-03-21 19:51:52,502 INFO  [Log] Switched to Iframe 
+2021-03-21 19:51:53,750 INFO  [Log] Username and Password entered on the form  
+2021-03-21 19:51:53,756 INFO  [Log] Test Scenario 'Verify Money Control Login Page' passed. 
+2021-03-21 19:51:53,756 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2021-03-21 19:51:53,756 INFO  [Log] X 
+2021-03-21 19:51:53,756 INFO  [Log] X 
+2021-03-21 19:51:53,756 INFO  [Log] X 
+2021-03-21 19:51:53,756 INFO  [Log] X 
+2021-03-21 19:51:56,090 INFO  [Log] Browser edge closed 
+2021-03-21 19:51:56,132 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:51:56,133 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:51:56,133 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Verify shareholder details graph       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2021-03-21 19:51:56,133 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:51:56,133 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:52:00,906 INFO  [Log] Browser edge initiated 
+2021-03-21 19:52:14,918 INFO  [Log] Navigated to the URL : https://www.moneycontrol.com/india/stockpricequote/electricals/dixontechnologies/DT07 
+2021-03-21 19:52:14,971 INFO  [Log] WebElement Displayed 
+2021-03-21 19:52:14,971 INFO  [Log] Shareholding heading is displayed 
+2021-03-21 19:52:17,461 INFO  [Log] Scroll is successfully completed 
+2021-03-21 19:52:17,461 INFO  [Log] Shareholding summary grapgh is visible on the page 
+2021-03-21 19:52:19,144 INFO  [Log] Screenshot saved to the location - C:\TAU\BG\JavaAutoFramework\target\_screenShot\PromoterHolding.png 
+2021-03-21 19:52:19,391 INFO  [Log] Color class name for legend Holding(%) is color-0 
+2021-03-21 19:52:19,391 INFO  [Log] Color class name for legend Holding(%) is color-0 
+2021-03-21 19:52:19,512 INFO  [Log] Color class name for legend Pledges as % of promoter shares(%) is color-1 
+2021-03-21 19:52:19,512 INFO  [Log] Color class name for legend Pledges as % of promoter shares(%) is color-1 
+2021-03-21 19:52:19,642 INFO  [Log] Color class name for legend Holding(%) is color-0 
+2021-03-21 19:52:19,642 INFO  [Log] Color class name for legend Holding(%) is color-0 
+2021-03-21 19:52:19,912 INFO  [Log] Color class name for legend Pledges as % of promoter shares(%) is color-1 
+2021-03-21 19:52:19,912 INFO  [Log] Color class name for legend Pledges as % of promoter shares(%) is color-1 
+2021-03-21 19:52:20,112 INFO  [Log] Fill colour for legend Holding(%) is #8693a4 
+2021-03-21 19:52:20,112 INFO  [Log] Fill colour for legend Holding(%) is #8693a4 
+2021-03-21 19:52:20,227 INFO  [Log] Fill colour for legend Pledges as % of promoter shares(%) is #8fc7a2 
+2021-03-21 19:52:20,227 INFO  [Log] Fill colour for legend Pledges as % of promoter shares(%) is #8fc7a2 
+2021-03-21 19:52:20,319 INFO  [Log] Label Dec 2019 is identified 
+2021-03-21 19:52:20,344 INFO  [Log] Label Mar 2020 is identified 
+2021-03-21 19:52:20,366 INFO  [Log] Label Jun 2020 is identified 
+2021-03-21 19:52:20,392 INFO  [Log] Label Sep 2020 is identified 
+2021-03-21 19:52:20,414 INFO  [Log] Label Dec 2020 is identified 
+2021-03-21 19:52:20,478 INFO  [Log] Plot Area Height is 152 
+2021-03-21 19:52:20,568 INFO  [Log] Last Y Axis label is 40 
+2021-03-21 19:52:21,356 INFO  [Log] Test Scenario 'Verify shareholder details graph' passed. 
+2021-03-21 19:52:21,356 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2021-03-21 19:52:21,356 INFO  [Log] X 
+2021-03-21 19:52:21,356 INFO  [Log] X 
+2021-03-21 19:52:21,356 INFO  [Log] X 
+2021-03-21 19:52:21,356 INFO  [Log] X 
+2021-03-21 19:52:26,911 INFO  [Log] Browser edge closed 
+2021-03-21 19:52:26,928 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:52:26,928 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:52:26,928 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Verify shareholder details graph       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2021-03-21 19:52:26,928 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:52:26,928 INFO  [Log] **************************************************************************************** 
+2021-03-21 19:52:30,037 INFO  [Log] Browser edge initiated 
+2021-03-21 19:52:48,899 INFO  [Log] Navigated to the URL : https://www.moneycontrol.com/india/stockpricequote/electricals/dixontechnologies/DT07 
+2021-03-21 19:52:48,942 INFO  [Log] WebElement Displayed 
+2021-03-21 19:52:48,942 INFO  [Log] Shareholding heading is displayed 
+2021-03-21 19:52:48,982 INFO  [Log] Scroll is successfully completed 
+2021-03-21 19:52:48,982 INFO  [Log] Shareholding summary grapgh is visible on the page 
+2021-03-21 19:52:50,708 INFO  [Log] Screenshot saved to the location - C:\TAU\BG\JavaAutoFramework\target\_screenShot\ShareholdingSummary.png 
+2021-03-21 19:52:50,976 INFO  [Log] Color class name for legend Promoter is color-0 
+2021-03-21 19:52:50,976 INFO  [Log] Color class name for legend Promoter is color-0 
+2021-03-21 19:52:51,076 INFO  [Log] Color class name for legend FII is color-1 
+2021-03-21 19:52:51,076 INFO  [Log] Color class name for legend FII is color-1 
+2021-03-21 19:52:51,183 INFO  [Log] Color class name for legend DII is color-2 
+2021-03-21 19:52:51,183 INFO  [Log] Color class name for legend DII is color-2 
+2021-03-21 19:52:51,295 INFO  [Log] Color class name for legend Public is color-3 
+2021-03-21 19:52:51,295 INFO  [Log] Color class name for legend Public is color-3 
+2021-03-21 19:52:51,402 INFO  [Log] Color class name for legend Others is color-4 
+2021-03-21 19:52:51,402 INFO  [Log] Color class name for legend Others is color-4 
+2021-03-21 19:52:51,528 INFO  [Log] Color class name for legend Promoter is color-0 
+2021-03-21 19:52:51,528 INFO  [Log] Color class name for legend Promoter is color-0 
+2021-03-21 19:52:51,609 INFO  [Log] Color class name for legend FII is color-1 
+2021-03-21 19:52:51,609 INFO  [Log] Color class name for legend FII is color-1 
+2021-03-21 19:52:51,689 INFO  [Log] Color class name for legend DII is color-2 
+2021-03-21 19:52:51,689 INFO  [Log] Color class name for legend DII is color-2 
+2021-03-21 19:52:51,791 INFO  [Log] Color class name for legend Public is color-3 
+2021-03-21 19:52:51,791 INFO  [Log] Color class name for legend Public is color-3 
+2021-03-21 19:52:51,866 INFO  [Log] Color class name for legend Others is color-4 
+2021-03-21 19:52:51,866 INFO  [Log] Color class name for legend Others is color-4 
+2021-03-21 19:52:52,002 INFO  [Log] Fill colour for legend Promoter is #1A75C3 
+2021-03-21 19:52:52,002 INFO  [Log] Fill colour for legend Promoter is #1A75C3 
+2021-03-21 19:52:52,105 INFO  [Log] Fill colour for legend FII is #2ECD71 
+2021-03-21 19:52:52,105 INFO  [Log] Fill colour for legend FII is #2ECD71 
+2021-03-21 19:52:52,199 INFO  [Log] Fill colour for legend DII is #F1C40F 
+2021-03-21 19:52:52,199 INFO  [Log] Fill colour for legend DII is #F1C40F 
+2021-03-21 19:52:52,297 INFO  [Log] Fill colour for legend Public is #E67F22 
+2021-03-21 19:52:52,297 INFO  [Log] Fill colour for legend Public is #E67F22 
+2021-03-21 19:52:52,385 INFO  [Log] Fill colour for legend Others is #750CEF 
+2021-03-21 19:52:52,385 INFO  [Log] Fill colour for legend Others is #750CEF 
+2021-03-21 19:52:53,433 INFO  [Log] Test Scenario 'Verify shareholder details graph' passed. 
+2021-03-21 19:52:53,433 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2021-03-21 19:52:53,433 INFO  [Log] X 
+2021-03-21 19:52:53,433 INFO  [Log] X 
+2021-03-21 19:52:53,433 INFO  [Log] X 
+2021-03-21 19:52:53,433 INFO  [Log] X 
+2021-03-21 19:52:55,359 INFO  [Log] Browser edge closed 

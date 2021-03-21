@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Graph Automation Testing</td>
+        <td>1</td>
+      <td>21 Mar 2021, 19:53</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">hooks.Hooks.afterScenarioUpdateLogger(io.cucumber.java.Scenario)</td>
+              <td>3</td>
+              <td class="duration" data-value="3273000000">3.273</td>
+              <td class="duration" data-value="3273000000">5.555</td>
+              <td class="duration" data-value="9819000000">9.819</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)</td>
+              <td>25</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="1000000">0.002</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">hooks.Hooks.beforeScenarioUpdateLogger(io.cucumber.java.Scenario)</td>
+              <td>3</td>
+              <td class="duration" data-value="4056666666">4.056</td>
+              <td class="duration" data-value="4056666666">4.774</td>
+              <td class="duration" data-value="12170000000">12.170</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)</td>
+              <td>25</td>
+              <td class="duration" data-value="1400000">0.001</td>
+              <td class="duration" data-value="1400000">0.006</td>
+              <td class="duration" data-value="35000000">0.035</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">hooks.Hooks.inIt()</td>
+              <td>28</td>
+              <td class="duration" data-value="5250000">0.005</td>
+              <td class="duration" data-value="5250000">0.147</td>
+              <td class="duration" data-value="147000000">0.147</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.FrameLoginValidationStepDefinitions.i_am_on_the_money_control_login_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="22832000000">22.832</td>
+              <td class="duration" data-value="22832000000">22.832</td>
+              <td class="duration" data-value="22832000000">22.832</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.FrameLoginValidationStepDefinitions.i_enter_the_username_and_password_on_the_login_page(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="2976000000">2.976</td>
+              <td class="duration" data-value="2976000000">2.976</td>
+              <td class="duration" data-value="2976000000">2.976</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.FrameLoginValidationStepDefinitions.i_verify_the_tinu_on_the_login_page(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="3000000">0.003</td>
+              <td class="duration" data-value="3000000">0.003</td>
+              <td class="duration" data-value="3000000">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_capture_all_the_driver_ids_whose_nationality_is_british(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="304000000">0.304</td>
+              <td class="duration" data-value="304000000">0.304</td>
+              <td class="duration" data-value="304000000">0.304</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_capture_the_given_names_who_are_born_between_to(java.lang.Integer,java.lang.Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="228000000">0.228</td>
+              <td class="duration" data-value="228000000">0.228</td>
+              <td class="duration" data-value="228000000">0.228</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)</td>
+              <td>25</td>
+              <td class="duration" data-value="920000">0.000</td>
+              <td class="duration" data-value="920000">0.016</td>
+              <td class="duration" data-value="23000000">0.023</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_record_the_returned_in_the_response_on_excel(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="3345000000">3.345</td>
+              <td class="duration" data-value="3345000000">3.345</td>
+              <td class="duration" data-value="3345000000">3.345</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()</td>
+              <td>25</td>
+              <td class="duration" data-value="307680000">0.307</td>
+              <td class="duration" data-value="307680000">4.255</td>
+              <td class="duration" data-value="7692000000">7.692</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)</td>
+              <td>25</td>
+              <td class="duration" data-value="120480000">0.120</td>
+              <td class="duration" data-value="120480000">2.238</td>
+              <td class="duration" data-value="3012000000">3.012</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_given_drivers_nationality_is_correct(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="256000000">0.256</td>
+              <td class="duration" data-value="256000000">0.256</td>
+              <td class="duration" data-value="256000000">0.256</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)</td>
+              <td>21</td>
+              <td class="duration" data-value="190571428">0.190</td>
+              <td class="duration" data-value="190571428">0.279</td>
+              <td class="duration" data-value="4002000000">4.002</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_am_on_the_on_the_stock_price_and_quote_page_for_a_given_stock()</td>
+              <td>2</td>
+              <td class="duration" data-value="16485000000">16.485</td>
+              <td class="duration" data-value="16485000000">18.905</td>
+              <td class="duration" data-value="32970000000">32.970</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_captured_the_screenshot_of_the_something_graph(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="1704500000">1.704</td>
+              <td class="duration" data-value="1704500000">1.726</td>
+              <td class="duration" data-value="3409000000">3.409</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_navigated_to_the_shareholding_section()</td>
+              <td>2</td>
+              <td class="duration" data-value="1265000000">1.265</td>
+              <td class="duration" data-value="1265000000">2.490</td>
+              <td class="duration" data-value="2530000000">2.530</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_verify_graph_legends(java.lang.String,io.cucumber.datatable.DataTable)</td>
+              <td>2</td>
+              <td class="duration" data-value="530000000">0.530</td>
+              <td class="duration" data-value="530000000">0.693</td>
+              <td class="duration" data-value="1060000000">1.060</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_verify_shareholding_percentage_and_graph_fill_colour(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="2030000000">2.030</td>
+              <td class="duration" data-value="2030000000">2.030</td>
+              <td class="duration" data-value="2030000000">2.030</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_verify_the_color_codes_labels_and_height_of_the_promoter_graph(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="1844000000">1.844</td>
+              <td class="duration" data-value="1844000000">1.844</td>
+              <td class="duration" data-value="1844000000">1.844</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.UIIntegrationValidationStepDefinitions.i_compare_the_details_against_ui_screen(io.cucumber.datatable.DataTable)</td>
+              <td>2</td>
+              <td class="duration" data-value="6967000000">6.967</td>
+              <td class="duration" data-value="6967000000">7.250</td>
+              <td class="duration" data-value="13934000000">13.934</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.VerifyDriverDetailsStepDefinitions.i_compare_the_details_against_something_file(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="208000000">0.208</td>
+              <td class="duration" data-value="208000000">0.208</td>
+              <td class="duration" data-value="208000000">0.208</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitions.VerifyDriverDetailsStepDefinitions.i_verify_the_record_total_is(java.lang.Integer)</td>
+              <td>2</td>
+              <td class="duration" data-value="26000000">0.026</td>
+              <td class="duration" data-value="26000000">0.030</td>
+              <td class="duration" data-value="52000000">0.052</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>25</td>
+            <td>202</td>
+            <td class="duration">0.618</td>
+            <td class="duration">32.970</td>
+            <td class="duration">2:4.906</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

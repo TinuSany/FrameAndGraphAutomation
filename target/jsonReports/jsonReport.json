@@ -1,0 +1,4596 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-21T19:51:23.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4287000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify Money Control Login Page",
+        "description": "",
+        "id": "verify-money-control-login-page;verify-money-control-login-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2337000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22832000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the money control login page",
+            "match": {
+              "location": "stepDefinitions.FrameLoginValidationStepDefinitions.i_am_on_the_money_control_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2976000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the Username and Password on the login page",
+            "match": {
+              "location": "stepDefinitions.FrameLoginValidationStepDefinitions.i_enter_the_username_and_password_on_the_login_page(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "Tinu",
+                  "Test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the Tinu on the login page",
+            "match": {
+              "location": "stepDefinitions.FrameLoginValidationStepDefinitions.i_verify_the_tinu_on_the_login_page(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username"
+                ]
+              },
+              {
+                "cells": [
+                  "Tinu"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Money Control Login Page",
+    "description": "\tAs a user I would like to test whether I can enter the username and password on the login frame",
+    "id": "verify-money-control-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/MoneyControlLoginPageValidation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-21T19:51:56.122Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4774000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify shareholder details graph",
+        "description": "",
+        "id": "verify-promoter-holding-and-pledge-graph-details-on-the-money-control-stock-price-page-for-a-given-stock;verify-shareholder-details-graph;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5555000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14065000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the on the stock price and quote page for a given stock",
+            "match": {
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_am_on_the_on_the_stock_price_and_quote_page_for_a_given_stock()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2490000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigated to the shareholding section",
+            "match": {
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_navigated_to_the_shareholding_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1683000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I captured the screenshot of the \"promoter\" graph",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"promoter\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_captured_the_screenshot_of_the_something_graph(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 367000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify \"promoter\" graph legends",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"promoter\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_verify_graph_legends(java.lang.String,io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Legend1",
+                  "Legend2"
+                ]
+              },
+              {
+                "cells": [
+                  "Holding(%)",
+                  "Pledges as % of promoter shares(%)"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1844000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the color codes, labels and height of the promoter graph",
+            "match": {
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_verify_the_color_codes_labels_and_height_of_the_promoter_graph(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Legend1",
+                  "Dec 2019Holding(%)",
+                  "Mar 2020Holding(%)",
+                  "Jun 2020Holding(%)",
+                  "Sep 2020Holding(%)",
+                  "Dec 2020Holding(%)"
+                ]
+              },
+              {
+                "cells": [
+                  "Holding(%)",
+                  "37.92",
+                  "36.17",
+                  "36.11",
+                  "36.01",
+                  "35.06"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify promoter holding and pledge graph details on the money control stock price page for a given stock",
+    "description": "\tAs a user I would like to verify the legends, colour codes and data labels on the promoter holding vs pledge graph",
+    "id": "verify-promoter-holding-and-pledge-graph-details-on-the-money-control-stock-price-page-for-a-given-stock",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/MoneyControlPromoterHoldingPledgeGraphValidation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-21T19:52:26.921Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3109000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify shareholder details graph",
+        "description": "",
+        "id": "verify-share-holder-summary-graph-details-on-the-money-control-stock-price-page-for-a-given-stock;verify-shareholder-details-graph;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1927000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18905000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the on the stock price and quote page for a given stock",
+            "match": {
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_am_on_the_on_the_stock_price_and_quote_page_for_a_given_stock()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigated to the shareholding section",
+            "match": {
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_navigated_to_the_shareholding_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1726000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I captured the screenshot of the \"summary\" graph",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"summary\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_captured_the_screenshot_of_the_something_graph(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify \"summary\" graph legends",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"summary\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_verify_graph_legends(java.lang.String,io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Legend1",
+                  "Legend2",
+                  "Legend3",
+                  "Legend4",
+                  "Legend5"
+                ]
+              },
+              {
+                "cells": [
+                  "Promoter",
+                  "FII",
+                  "DII",
+                  "Public",
+                  "Others"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2030000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify shareholding percentage and graph fill colour",
+            "match": {
+              "location": "stepDefinitions.ShareholdingGraphValidationStepDefinitions.i_verify_shareholding_percentage_and_graph_fill_colour(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Legend1",
+                  "ShareHoldingLegend1",
+                  "Legend2",
+                  "ShareHoldingLegend2",
+                  "Legend3",
+                  "ShareHoldingLegend3",
+                  "Legend4",
+                  "ShareHoldingLegend4",
+                  "Legend5",
+                  "ShareHoldingLegend5"
+                ]
+              },
+              {
+                "cells": [
+                  "Promoter",
+                  "35.06%",
+                  "FII",
+                  "20.31%",
+                  "DII",
+                  "15.22%",
+                  "Public",
+                  "29.4%",
+                  "Others",
+                  "0.01%"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify share holder summary graph details on the money control stock price page for a given stock",
+    "description": "\tAs a user I would like to verify the legends, colour codes and share percentage on the share holding summary graph",
+    "id": "verify-share-holder-summary-graph-details-on-the-money-control-stock-price-page-for-a-given-stock",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/MoneyControlShareHolderValidation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-21T19:52:55.366Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Get the driver details",
+        "description": "",
+        "id": "retrieve-and-validate-the-driver-details;get-the-driver-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Driver Information",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "1000",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4255000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2238000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3345000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I record the \u0027driverId\u0027 returned in the response on \u0027DriversId\u0027 excel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027driverId\u0027",
+                  "offset": 13
+                },
+                {
+                  "val": "\u0027DriversId\u0027",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_record_the_returned_in_the_response_on_excel(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify the given drivers nationality is correct",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_given_drivers_nationality_is_correct(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "driverId",
+                  "nationality"
+                ]
+              },
+              {
+                "cells": [
+                  "adams",
+                  "Belgian"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I capture all the driverIds whose nationality is \u0027British\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027British\u0027",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_capture_all_the_driver_ids_whose_nationality_is_british(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Capture the givenNames who are born between 1920 to 1925",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1920",
+                  "offset": 46
+                },
+                {
+                  "val": "1925",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_capture_the_given_names_who_are_born_between_to(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      }
+    ],
+    "name": "Retrieve and validate the driver details",
+    "description": "\tAs a user I would like to retrive all the driver details through API call in json format and then validate the results.",
+    "id": "retrieve-and-validate-the-driver-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/RestAssured/RecordAndValidateDriverDetails.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-21T19:53:06.021Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Season List",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 271000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:06.446Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Race Schedule",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:06.787Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Race Results",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 582000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 279000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:07.715Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Qualifying Results",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:08.139Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Qualifying Results",
+                  "1",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:08.561Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Constructor Standings",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:08.911Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Constructor Standings",
+                  "3",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:09.180Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Driver Standings",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 505000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:09.870Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Driver Standings",
+                  "2",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 339000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:10.410Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Driver Information",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:10.648Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Driver Information",
+                  "alonso",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:10.891Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Constructor Information",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:11.178Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;14",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Constructor Information",
+                  "ferrari",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:11.396Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;15",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Circuit Information",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:11.653Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;16",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Circuit Information",
+                  "monza",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 98000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 240000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:12.079Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;17",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Finishing Status",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:12.444Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;18",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Finishing Status",
+                  "0",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:12.753Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;19",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Lap Times",
+                  "",
+                  "current",
+                  "last",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:13.073Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;20",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Lap Times",
+                  "5",
+                  "2016",
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:13.379Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;21",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Pit Stops",
+                  "",
+                  "2015",
+                  "last",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 228000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:13.790Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Verify Driver Information with valid request",
+        "description": "",
+        "id": "smoke-test-ergast-developer-api;verify-driver-information-with-valid-request;;22",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "season",
+                  "round",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Pit Stops",
+                  "0",
+                  "current",
+                  "15",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the record total, limit, offset and table name",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_verify_the_record_total_limit_offset_and_table_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ExpectedNonZeroRecords",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Y",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      }
+    ],
+    "name": "Smoke Test Ergast Developer API",
+    "description": "\tAs a user I would like to smoke test different options of Smoke Test Ergast Developer API.",
+    "id": "smoke-test-ergast-developer-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/RestAssured/SmokeTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-21T19:53:14.085Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify driver details against csv file",
+        "description": "",
+        "id": "verify-driver-details;verify-driver-details-against-csv-file",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Driver Information",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "1000",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I compare the details against \"drivers.csv\" file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "drivers.csv",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.VerifyDriverDetailsStepDefinitions.i_compare_the_details_against_something_file(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify driver details",
+    "description": "\tAs a user I would like to verify API returned driver details against a trusted source - downloaded csv file.",
+    "id": "verify-driver-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/RestAssured/VerifyDriverDetailsAgainstCSVFile.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-21T19:53:14.640Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify driver details against UI",
+        "description": "",
+        "id": "verify-ui-details-against-ergast-developer-api;verify-driver-details-against-ui;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Driver Information",
+                  "hamilton",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "10",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify the record total is 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.VerifyDriverDetailsStepDefinitions.i_verify_the_record_total_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7250000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I compare the details against UI screen",
+            "match": {
+              "location": "stepDefinitions.UIIntegrationValidationStepDefinitions.i_compare_the_details_against_ui_screen(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "DriverName",
+                  "ResultType",
+                  "Season"
+                ]
+              },
+              {
+                "cells": [
+                  "Lewis Hamilton",
+                  "Driver Information",
+                  "All"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IntegrationTest"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-21T19:53:21.997Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.inIt()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.beforeScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify driver details against UI",
+        "description": "",
+        "id": "verify-ui-details-against-ergast-developer-api;verify-driver-details-against-ui;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.afterScenarioUpdateRestAssuredLogger(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have created a request playload Ergast Developer API",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_have_created_a_request_playload_ergast_developer_api(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "typeOfInformation",
+                  "typeFilter",
+                  "circuits",
+                  "constructors",
+                  "drivers",
+                  "grid",
+                  "results",
+                  "fastest",
+                  "status",
+                  "constructorStandings",
+                  "driverStandings",
+                  "limit",
+                  "offset"
+                ]
+              },
+              {
+                "cells": [
+                  "Driver Information",
+                  "michael_schumacher",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "10",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I submit the request",
+            "match": {
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I validate the response status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.RecordAndValidateDriverDetailsStepDefinitions.i_validate_the_response_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify the record total is 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.VerifyDriverDetailsStepDefinitions.i_verify_the_record_total_is(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6684000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I compare the details against UI screen",
+            "match": {
+              "location": "stepDefinitions.UIIntegrationValidationStepDefinitions.i_compare_the_details_against_ui_screen(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "DriverName",
+                  "ResultType",
+                  "Season"
+                ]
+              },
+              {
+                "cells": [
+                  "Michael Schumacher",
+                  "Driver Information",
+                  "All"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IntegrationTest"
+          },
+          {
+            "name": "@RestAssuredTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify UI details against Ergast Developer API",
+    "description": "\tAs a user I would like to verify the UI details against API.",
+    "id": "verify-ui-details-against-ergast-developer-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/UIIntegrationValidation.feature",
+    "tags": []
+  }
+]
