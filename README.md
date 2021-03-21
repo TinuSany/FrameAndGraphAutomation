@@ -25,11 +25,12 @@ https://github.com/damianszczepanik/cucumber-reporting
 How to run
 ----------
 Navigate to the Automation folder of the cloned library in the command prompt before execute the below maven commands.
+
 •	Maven command to run the entire automation suite and default chrome browser will be used.
-mvn test verify
+  mvn test verify
 
 •	Maven command to run the entire automation suite in edge browser.
-mvn test verify -DbrowserName="edge"
+    mvn test verify -DbrowserName="edge"
 
 •	Maven command to run the selenium test alone
-mvn test verify -Dcucumber.filter.tags="@SeleniumTest"
+    mvn test verify -Dcucumber.filter.tags="@SeleniumTest"
